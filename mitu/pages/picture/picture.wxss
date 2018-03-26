@@ -1,0 +1,21 @@
+.title {
+  font-size: 36rpx;
+  margin-top: 40rpx;
+  text-indent: 26rpx;
+  color: #474443;
+  font-weight: bold;
+}
+
+.summary {
+  font-size: 24rpx;
+  text-indent: 26rpx;
+  margin-top: 5rpx;
+  color: #757475;
+}
+
+.body image {
+  display: block;
+  width: 698rpx;
+  margin: 26rpx 26rpx 0 26rpx;
+  overflow: hidden;
+}

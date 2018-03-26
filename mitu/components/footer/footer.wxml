@@ -1,0 +1,12 @@
+<!--footer.wxml-->
+<view class="wx-footer">
+  <view class="wx-footer-contL">
+    <view class="wx-footer-contL-basicInfo">
+      <view class="wx-footer-contL-basicInfo-price">¥ 268</view>
+      <view class="wx-footer-contL-basicInfo-everyNight">每晚</view>
+    </view>
+    <view class="wx-footer-contL-tips">节假日浮动价格以房东报价为准</view>
+  </view>
+  <image class="wx-footer-contR" bindtap="toCalender" mode="aspectFill" src="/images/footer-btn.png"></image>
+  <!-- <view class="wx-footer-contR">查看是否可订</view> -->
+</view>

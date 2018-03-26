@@ -1,0 +1,15 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/home1/home",
+    "pages/picture/picture",
+    "pages/map/map",
+    "pages/calender/calender"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "覓兔MituHome",
+    "navigationBarTextStyle":"black"
+  }
+}
