@@ -31,7 +31,7 @@ Component({
       }
       let data = {'year': year, 'month': monthCN, days: days, maxDay: maxDay}
       for (let j = 1; j < maxDay+1; j++) {
-        let value = `${year}-${month+1}-${j}`
+        let value = `${year}/${month+1}/${j}`
         let days = {
           'value': value,
           'disable': false,
@@ -44,7 +44,6 @@ Component({
       }
       dataList.push(data)
     }
-    console.log(dataList)
     this.setData({
       dataList: dataList
     })
