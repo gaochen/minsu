@@ -41,7 +41,7 @@
 .footer-text view {
     font-size: 32rpx;
     color: #757475;
-    line-height: 56rpx;
+    line-height: 64rpx;
 }
 .footer-text view text {
     color: #ffffff;
@@ -55,45 +55,6 @@
     margin-right: 60rpx;
     background-color: #cccccc;
 }
-
-.wrap {
-    width: 100%;
-    height: auto;
-    margin: 81rpx 0 251rpx 0;
-    overflow-y: scroll;
-}
-.calender-container {
-    width: 100%;
-    height: auto;
-    overflow: hidden;
-}
-.calender-header {
-    width: 100%;
-    font-size: 34rpx;
-    text-indent: 60rpx;
-    color: #332c2b;
-    margin: 50rpx 0 30rpx 0;
-}
-.calender-body {
-    width: 742rpx;
-    margin: 0 auto;
-    height: auto;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-}
-.calender-date {
-    font-size: 38rpx;
-    width: 106rpx;
-    height: auto;
-    margin-bottom: 30rpx;
-    text-align: center;
-    font-weight: bold;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-.calender-disable {
-    color: #a1a1a1;
-    text-decoration: line-through;
+.body {
+    padding: 81rpx 0 251rpx 0;
 }

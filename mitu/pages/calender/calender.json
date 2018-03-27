@@ -1,3 +1,6 @@
 {
-  "navigationBarTitleText": "ROOM1.Cure"
+  "navigationBarTitleText": "ROOM1.Cure",
+  "usingComponents": {
+    "calender": "/components/calender/calender"
+  }
 }

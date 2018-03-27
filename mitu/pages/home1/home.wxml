@@ -50,14 +50,7 @@
         <view class="detail-important">最少住两晚</view>
       </view>
     </view>
-    <map 
-        id="map"
-        longitude="104.086970"
-        latitude="30.653500"
-        markers="{{markers}}"
-        bindtap="toMap"
-      >
-    </map>
+    <image class="map" src="/images/map.jpg" mode="aspectFill" bindtap="toMap"></image>
     <view class="content">
       <view class="rule">
         <view class="rule-tip">准确地址将在预订后提供</view>

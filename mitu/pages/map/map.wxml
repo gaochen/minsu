@@ -3,7 +3,8 @@
     id="map"
     longitude="104.086970"
     latitude="30.653500"
-    markers="{{markers}}"
+    circles="{{circles}}"
+    bindtap="openLocation"
   >
   </map>
 </view>

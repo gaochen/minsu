@@ -105,7 +105,7 @@
     background-color:#ccc;
     transform: rotate(40deg)
 }
-#map {
+.map {
     width: 750rpx;
     height: 750rpx;
     overflow: hidden;
