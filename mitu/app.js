@@ -34,6 +34,13 @@ App({
     })
   },
   globalData: {
-    userInfo: null
+    roomList: {
+      '1': {
+        'title': 'ROOM1.Cure'
+      },
+      '2': {
+        'title': 'ROOM2.Story'
+      }
+    }
   }
 })
