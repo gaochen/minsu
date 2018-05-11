@@ -1,6 +1,6 @@
 <!--index.wxml-->
 <view class="container">
-    <view class="list list-one" data-home='1' bindtap="toHome">
+    <!-- <view class="list list-one" data-home='1' bindtap="toHome">
         <image class="list-banner" src="/images/06.jpg" mode="aspectFill"></image>
         <view class="list-title">
             【覓兔MituHome·摄影师的家】出门太古里·2分钟步行至春熙路地铁口·北欧风公寓
@@ -11,12 +11,12 @@
             <view class="list-everyNight">每晚</view>
         </view>
         <view class="list-tips">节假日浮动价格以房东报价为准</view>
-    </view>
+    </view> -->
 
-    <!-- <view class="list">
+    <view class="list" data-home='1' bindtap="toHome">
         <image class="list-banner" src="/images/06.jpg" mode="aspectFill"></image>
         <view class="list-title">
-            【觅兔MituHome·摄影师的家】出门太古里·2分钟步行至春熙路地铁口·北欧风公寓
+            【觅兔MituHome·摄影师的家】Room 1·出门太古里·2分钟步行至春熙路地铁口·北欧风公寓
         </view>
         <view class="list-tip">整套公寓／可住2人</view>
         <view class="list-info">
@@ -24,5 +24,18 @@
             <view class="list-everyNight">每晚</view>
         </view>
         <view class="list-tips">节假日浮动价格以房东报价为准</view>
-    </view> -->
+    </view>
+
+    <view class="list" data-home='2' bindtap="toHome">
+        <image class="list-banner" src="/images/13.jpg" mode="aspectFill"></image>
+        <view class="list-title">
+            【觅兔MituHome·摄影师的家】Room 2·出门太古里·2分钟步行至春熙路地铁口·北欧风公寓
+        </view>
+        <view class="list-tip">整套公寓／可住2人</view>
+        <view class="list-info">
+            <view class="list-price">¥ 268</view>
+            <view class="list-everyNight">每晚</view>
+        </view>
+        <view class="list-tips">节假日浮动价格以房东报价为准</view>
+    </view>
 </view>
