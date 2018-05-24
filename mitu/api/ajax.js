@@ -19,27 +19,14 @@ const ajax = (options) => {
           }
           resolve(res)
         } else {
-          let code = res.data.code
-          wx.showModal({
-            title: '提示',
-            content: res.data.info,
-            showCancel: false,
-            success: function(res) {
-              if (res.confirm && (code === 5006 || code === 5005)) {
-                wx.removeStorage({
-                  key: 'token'
-                })
-                wx.reLaunch({
-                  url: '../login/login'
-                })
-              }
-            }
-          })
+          if (options.fail) {
+            options.fail(res)
+          }
         }
       },
       fail: res => {
-        if (options.fail) {
-          options.fail()
+        if (options.error) {
+          options.error()
         } else {
           wx.showModal({
             title: '提示',
