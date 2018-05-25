@@ -21,7 +21,7 @@ App({
               this.globalData.openId = res.data.data.openid
             }
           }).then((res) => {
-            // 获取openId成功之后，判断该用户是否已存在
+            // 获取openId成功之后，用户登录，禁
             return ajax({
               url: api.login,  
               method: 'POST',
