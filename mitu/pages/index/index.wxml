@@ -13,6 +13,7 @@
         <view class="list-tips">节假日浮动价格以房东报价为准</view>
     </view> -->
 
+    <button wx:if="{{canIUse}}" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">授权登录</button>
     <view class="list" data-home='1' bindtap="toHome">
         <image class="list-banner" src="/images/06.jpg" mode="aspectFill"></image>
         <view class="list-title">

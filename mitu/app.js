@@ -21,33 +21,83 @@ App({
               this.globalData.openId = res.data.data.openid
             }
           }).then((res) => {
-            // 获取openId成功之后，用户登录，禁
+            // 获取openId成功之后，判断该用户是否已存在
             return ajax({
-              url: api.login,
+              url: api.isExistAppUser,
               method: 'POST',
               data: {
                 open_id: this.globalData.openId,
                 mini_key: this.globalData.mini_key
               }
-              // fail: res => {
-              //   wx.showModal({
-              //     title: '提示',
-              //     content: res.data.info,
-              //     showCancel: false,
-              //     success: function (res) {
-              //     }
-              //   })
-              // }
             })
-          }).catch((error) => {
-            console.log(error)
+          }).then((res) => {
+            // 如果该用户不存在小程序，则创建
+            if (res.data.data.is_exist === 0) {
+              wx.authorize({
+                scope: 'scope.userInfo',
+                success: (res) => {
+                  // 用户已经同意小程序使用录音功能，后续调用 wx.startRecord 接口不会弹窗询问
+                  console.log(res)
+                }
+              })
+              // wx.getUserInfo({
+              //   success: (res) => {
+              //     this.globalData.userInfo = res.userInfo
+              //     ajax({
+              //       url: api.createUser,
+              //       method: 'POST',
+              //       data: {
+              //         open_id: this.globalData.openId,
+              //         mini_key: this.globalData.mini_key,
+              //         user_name: res.userInfo.nickName,
+              //         user_head: res.userInfo.avatarUrl,
+              //         user_sex: res.userInfo.gender
+              //       },
+              //       success: res => {
+              //         // 创建成功之后用户登录
+              //         ajax({
+              //           url: api.login,
+              //           method: 'POST',
+              //           data: {
+              //             open_id: this.globalData.openId,
+              //             mini_key: this.globalData.mini_key
+              //           },
+              //           success: res => {
+              //             console.log('用户登录成功')
+              //           }
+              //         })
+              //       }
+              //     })
+              //   },
+              //   fail: res => {
+              //     console.log(res)
+              //   }
+              // })
+            } else {
+              // 用户存在则登录
+              ajax({
+                url: api.login,
+                method: 'POST',
+                data: {
+                  open_id: this.globalData.openId,
+                  mini_key: this.globalData.mini_key
+                },
+                success: res => {
+                  console.log('用户登录成功')
+                }
+              })
+            }
           })
+            .catch((error) => {
+              console.log(error)
+            })
         }
       }
     })
   },
   globalData: {
     mini_key: 'customer_dev_v1',
+    userInfo: null,
     openId: null,
     token: null
   }
