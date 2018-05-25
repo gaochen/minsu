@@ -23,12 +23,21 @@ App({
           }).then((res) => {
             // 获取openId成功之后，用户登录，禁
             return ajax({
-              url: api.login,  
+              url: api.login,
               method: 'POST',
               data: {
                 open_id: this.globalData.openId,
                 mini_key: this.globalData.mini_key
               }
+              // fail: res => {
+              //   wx.showModal({
+              //     title: '提示',
+              //     content: res.data.info,
+              //     showCancel: false,
+              //     success: function (res) {
+              //     }
+              //   })
+              // }
             })
           }).catch((error) => {
             console.log(error)
