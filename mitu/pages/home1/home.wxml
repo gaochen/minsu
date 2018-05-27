@@ -28,12 +28,12 @@
           <view class="detail-info">· 洗衣机</view>
           <view class="detail-info">· 门禁</view>
           <view class="detail-info">· 暖气</view>
-          <view class="detail-info">· 整间厨房</view>
+          <!-- <view class="detail-info">· 整间厨房</view> -->
           <view class="detail-info">· 洗浴用品</view>
-          <view class="detail-info">· 熨斗</view>
+          <!-- <view class="detail-info">· 熨斗</view>
           <view class="detail-info">· 免费停车位</view>
           <view class="detail-info">· 洗碗机</view>
-          <view class="detail-info">· 咖啡机</view>
+          <view class="detail-info">· 咖啡机</view> -->
         </view>
         <view class="detail-title">须知</view>
         <view class="detail-time">
