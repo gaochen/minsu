@@ -1,20 +1,6 @@
 <view class="container">
   <view class="body">
-    <view class="title">客厅</view>
-    <view class="summary">大床，地板床垫，空调，阳台</view>
-    <image src="/images/01.jpg" mode="widthFix"></image>
-    <image src="/images/02.jpg" mode="widthFix"></image>
-    <image src="/images/03.jpg" mode="widthFix"></image>
-    <image src="/images/04.jpg" mode="widthFix"></image>
-    <image src="/images/05.jpg" mode="widthFix"></image>
-    <view class="title">卧室</view>
-    <view class="summary">大床，地板床垫，空调，阳台</view>
-    <image src="/images/06.jpg" mode="widthFix"></image>
-    <image src="/images/07.jpg" mode="widthFix"></image>
-    <image src="/images/08.jpg" mode="widthFix"></image>
-    <image src="/images/09.jpg" mode="widthFix"></image>
-    <image src="/images/10.jpg" mode="widthFix"></image>
-    <image src="/images/11.jpg" mode="widthFix"></image>
+    <image src="{{src}}" mode="widthFix"></image>
   </view>
   <footer></footer>
 </view>

@@ -1,5 +1,5 @@
 {
-  "navigationBarTitleText": "ROOM1.Cure",
+  "navigationBarTitleText": "选择日期",
   "usingComponents": {
     "calender": "/components/calender/calender"
   }

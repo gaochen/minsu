@@ -1,5 +1,5 @@
 {
-  "navigationBarTitleText": "ROOM1.Cure",
+  "navigationBarTitleText": "实景预览",
   "usingComponents": {
     "footer": "/components/footer/footer"
   }

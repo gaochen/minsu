@@ -1,8 +1,8 @@
 <view class="container">
   <map
     id="map"
-    longitude="104.086970"
-    latitude="30.653500"
+    longitude="{{circles[0].longitude}}"
+    latitude="{{circles[0].latitude}}"
     circles="{{circles}}"
     bindtap="openLocation"
   >

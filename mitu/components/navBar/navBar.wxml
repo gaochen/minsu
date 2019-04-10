@@ -1,0 +1,5 @@
+<!--navBar.wxml-->
+<view class="ms-navBar" hidden="{{!isLogin}}">
+  <view class="ms-navBar-item {{ index === 0 ? 'active' : ''}}" bindtap="toVisitor">房源详情</view>
+  <view class="ms-navBar-item {{ index === 1 ? 'active' : ''}}" bindtap="toOwner">日历管理</view>
+</view>

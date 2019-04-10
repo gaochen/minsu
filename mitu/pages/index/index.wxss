@@ -114,3 +114,14 @@
   font-size: 20rpx;
   color: #757475;
 }
+
+.toLogin {
+  width: 690rpx;
+  height: 98rpx;
+  line-height: 98rpx;
+  text-align: center;
+  color: #ffffff;
+  border: 1px solid #e6e6e6;
+  background-color: #000000;
+  margin: 0 auto 40rpx auto;
+}
