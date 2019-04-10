@@ -1,42 +1,72 @@
 <!--index.wxml-->
 <view class="container">
-    <!-- <view class="list list-one" data-home='1' bindtap="toHome">
-        <image class="list-banner" src="/images/06.jpg" mode="aspectFill"></image>
-        <view class="list-title">
-            【覓兔MituHome·摄影师的家】出门太古里·2分钟步行至春熙路地铁口·北欧风公寓
+    <view class="{{isLogin ? 'body hasNavBar' : 'body noPB'}}">
+        <view class="list" data-home='1' bindtap="toHome">
+            <image class="list-banner" src="cloud://dev-cc52fc.6465-dev-cc52fc/home1/preview.jpg" mode="aspectFill"></image>
+            <view class="list-title">
+                【觅兔MituHome·摄影师的家】Room 1·出门太古里·2分钟步行至春熙路地铁口·北欧风公寓
+            </view>
+            <view class="list-tip">整套公寓／可住2人</view>
+            <view class="list-info">
+                <view class="list-price">¥ 268</view>
+                <view class="list-everyNight">每晚</view>
+            </view>
+            <view class="list-tips">节假日浮动价格以房东报价为准</view>
         </view>
-        <view class="list-tip">整套公寓／可住2人</view>
-        <view class="list-info">
-            <view class="list-price">¥ 268</view>
-            <view class="list-everyNight">每晚</view>
-        </view>
-        <view class="list-tips">节假日浮动价格以房东报价为准</view>
-    </view> -->
 
-    <button wx:if="{{canIUse}}" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">授权登录</button>
-    <view class="list" data-home='1' bindtap="toHome">
-        <image class="list-banner" src="/images/06.jpg" mode="aspectFill"></image>
-        <view class="list-title">
-            【觅兔MituHome·摄影师的家】Room 1·出门太古里·2分钟步行至春熙路地铁口·北欧风公寓
+        <view class="list" data-home='2' bindtap="toHome">
+            <image class="list-banner" src="cloud://dev-cc52fc.6465-dev-cc52fc/home2/preview.jpg" mode="aspectFill"></image>
+            <view class="list-title">
+                【觅兔MituHome·摄影师的家】Room 2·出门太古里·2分钟步行至春熙路地铁口·北欧风公寓
+            </view>
+            <view class="list-tip">整套公寓／可住2人</view>
+            <view class="list-info">
+                <view class="list-price">¥ 268</view>
+                <view class="list-everyNight">每晚</view>
+            </view>
+            <view class="list-tips">节假日浮动价格以房东报价为准</view>
         </view>
-        <view class="list-tip">整套公寓／可住2人</view>
-        <view class="list-info">
-            <view class="list-price">¥ 268</view>
-            <view class="list-everyNight">每晚</view>
-        </view>
-        <view class="list-tips">节假日浮动价格以房东报价为准</view>
-    </view>
 
-    <view class="list" data-home='2' bindtap="toHome">
-        <image class="list-banner" src="/images/13.jpg" mode="aspectFill"></image>
-        <view class="list-title">
-            【觅兔MituHome·摄影师的家】Room 2·出门太古里·2分钟步行至春熙路地铁口·北欧风公寓
+        <view class="list" data-home='3' bindtap="toHome">
+            <image class="list-banner" src="cloud://dev-cc52fc.6465-dev-cc52fc/home3/preview.jpg" mode="aspectFill"></image>
+            <view class="list-title">
+                【觅兔MituHome·摄影师的家】Room 3·春熙路商圈·5分钟步行至太古里·独享空中花园
+            </view>
+            <view class="list-tip">整套公寓／可住4人</view>
+            <view class="list-info">
+                <view class="list-price">¥ 428</view>
+                <view class="list-everyNight">每晚</view>
+            </view>
+            <view class="list-tips">节假日浮动价格以房东报价为准</view>
         </view>
-        <view class="list-tip">整套公寓／可住2人</view>
-        <view class="list-info">
-            <view class="list-price">¥ 268</view>
-            <view class="list-everyNight">每晚</view>
+
+        <view class="list" data-home='4' bindtap="toHome">
+            <image class="list-banner" src="cloud://dev-cc52fc.6465-dev-cc52fc/home4/preview.jpg" mode="aspectFill"></image>
+            <view class="list-title">
+                【觅兔MituHome·摄影师的家】Room 4·春熙路商圈·5分钟至太古里·INS风·全自动投影仪
+            </view>
+            <view class="list-tip">整套公寓／可住3人</view>
+            <view class="list-info">
+                <view class="list-price">¥ 338</view>
+                <view class="list-everyNight">每晚</view>
+            </view>
+            <view class="list-tips">节假日浮动价格以房东报价为准</view>
         </view>
-        <view class="list-tips">节假日浮动价格以房东报价为准</view>
+
+        <view class="list" data-home='5' bindtap="toHome">
+            <image class="list-banner" src="cloud://dev-cc52fc.6465-dev-cc52fc/home5/preview.jpg" mode="aspectFill"></image>
+            <view class="list-title">
+                【觅兔MituHome·摄影师的家】Room 5·春熙路太古里商圈·5分钟至太古里·紧邻339电视塔
+            </view>
+            <view class="list-tip">整套公寓／可住4人</view>
+            <view class="list-info">
+                <view class="list-price">¥ 368</view>
+                <view class="list-everyNight">每晚</view>
+            </view>
+            <view class="list-tips">节假日浮动价格以房东报价为准</view>
+        </view>
+
+        <view class="toLogin" hidden="{{isLogin}}" bindtap="toLogin">我是房东</view>
     </view>
+    <navBar isLogin="{{isLogin}}" index='0'></navBar>
 </view>

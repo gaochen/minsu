@@ -1,0 +1,52 @@
+.title {
+  font-size: 32rpx;
+  width: 650rpx;
+  padding-bottom: 15rpx;
+  margin: 0 auto;
+  border-bottom: 1rpx solid #e5e5e5;
+}
+.selectDate {
+  font-size: 30rpx;
+  width: 100%;
+  margin-top: 30rpx;
+  text-indent: 80rpx;
+}
+.mt80 {
+  margin-top: 80rpx;
+}
+.mb40 {
+  margin-bottom: 40rpx;
+}
+.row {
+  width: 650rpx;
+  height: 115rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+.mb100 {
+  margin-bottom: 100rpx;
+}
+.label {
+  font-size: 28rpx;
+}
+.checkbox {
+  width: 62rpx;
+  height: 62rpx;
+  overflow: hidden;
+}
+.checkbox-icon {
+  width: 62rpx;
+  height: 62rpx;
+  display: block;
+}
+.save {
+  width: 168rpx;
+  height: 93rpx;
+  display: block;
+  position: fixed;
+  bottom: 40rpx;
+  right: 40rpx;
+}

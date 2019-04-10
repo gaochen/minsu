@@ -1,5 +1,5 @@
 {
-  "navigationBarTitleText": "ROOM2.Story",
+  "navigationBarTitleText": "ROOM2",
   "usingComponents": {
     "footer": "/components/footer/footer"
   }

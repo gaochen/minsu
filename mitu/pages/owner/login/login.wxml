@@ -1,0 +1,36 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="login">
+    <image class="login-hi" src="/images/owner-02.png" mode="aspectFill"></image>
+    <view class="login-text">登陆账号</view>
+    <view class="login-text">管理我的房源</view>
+    <view class="login-input">
+      <input placeholder="账号" type="text" bindinput="setUsername" />
+    </view>
+    <view class="login-input"> 
+      <input placeholder="密码" type="password" bindinput="setPassword" />
+    </view>
+    <!-- <view class="row" bindtap="change">
+      <view class="checkbox">
+        <image class="checkbox-icon" hidden="{{!checked}}" src="/images/edit-01.png" mode="aspectFill"></image>
+        <image class="checkbox-icon" src="/images/edit-02.png" mode="aspectFill"></image>
+      </view>
+      <view class="label">理解并同意《服务协议》的全部内容</view>
+    </view> -->
+    <image class="login-btn" src="/images/owner-01.png" mode="aspectFill" bindtap="toLogin"></image>
+  </view>
+  <!-- <view class="authorize">
+    <view class="authorize-content">
+      <view class="authorize-header">小程序授权</view>
+      <view class="authorize-title">
+        <image class="authorize-portrait" src="/images/logo.png" mode="aspectFill"></image>
+        <view class="authorize-name">行宿申请获取以下权限：</view>
+      </view>
+      <view class="authorize-detail">获取您的公开信息（昵称、头像等）</view>
+      <view class="authorize-btns">
+        <button class="authorize-reject" type="default">拒绝</button>
+        <button class="authorize-approve" type="primary" open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="onGotUserInfo">允许</button>
+      </view>
+    </view>
+  </view> -->
+</view>

@@ -1,7 +1,10 @@
+const app = getApp()
+
 Page({
-  data: {
-    disabled: ['2018/4/21', '2018/4/22', '2018/4/23', '2018/4/24', '2018/4/25']
-  },
-  onLoad: function () {
-  }
+    data: {
+        disabled: [],
+        length: 3
+    },
+    onLoad: function(option) {
+    }
 })

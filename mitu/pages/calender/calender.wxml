@@ -9,7 +9,7 @@
     <view class="header-text">六</view>
   </view>
   <view class="body">
-    <calender disabled="{{disabled}}" length="6"></calender>
+    <calender disabled="{{disabled}}" length="{{length}}"></calender>
   </view>
   <view class="footer">
     <view class="footer-text">

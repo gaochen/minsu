@@ -1,6 +1,6 @@
 <view class="container">
   <view class="body">
-    <image class="thumb" bindtap="toPicture" src="/images/06.jpg" mode="aspectFill"></image>
+    <image class="thumb" bindtap="toPicture" src="cloud://dev-cc52fc.6465-dev-cc52fc/home1/preview.jpg" mode="aspectFill"></image>
     <view class="more" bindtap="toPicture">参观此房源</view>
     <view class="content">
       <view class="name">

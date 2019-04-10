@@ -3,9 +3,16 @@
     "pages/index/index",
     "pages/home1/home",
     "pages/home2/home",
+    "pages/home3/home",
+    "pages/home4/home",
+    "pages/home5/home",
     "pages/picture/picture",
     "pages/map/map",
-    "pages/calender/calender"
+    "pages/calender/calender",
+    "pages/owner/login/login",
+    "pages/owner/index/index",
+    "pages/owner/calender/calender",
+    "pages/owner/edit/edit"
   ],
   "window":{
     "backgroundTextStyle":"light",

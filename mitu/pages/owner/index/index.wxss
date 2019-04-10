@@ -1,0 +1,33 @@
+.total {
+  width: 690rpx;
+  font-size: 50rpx;
+  margin: 0 auto 40rpx auto;
+}
+.list {
+  width: 690rpx;
+  height: auto;
+  margin: 0 auto 40rpx auto;
+}
+.list-banner {
+  width: 100%;
+  height: 400rpx;
+  overflow: hidden;
+  display: block;
+}
+.list-info {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20rpx 0;
+}
+.list-name {
+  font-size: 30rpx;
+  color: #474443;
+}
+.list-editIcon {
+  width: 30rpx;
+  height: 30rpx; 
+}

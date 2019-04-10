@@ -1,0 +1,72 @@
+<view class="container">
+  <view class="body">
+    <image class="thumb" bindtap="toPicture" src="cloud://dev-cc52fc.6465-dev-cc52fc/home3/home.jpg" mode="aspectFill"></image>
+    <view class="more" bindtap="toPicture">参观此房源</view>
+    <view class="content">
+      <view class="name">
+        【覓兔MituHome·摄影师的家】春熙路商圈·5分钟步行至太古里·独享空中花园
+      </view>
+      <view class="tip">整套公寓／可住4人</view>
+      <view class="describe">该房源位于我的独栋咖啡店覓兎MituCafe楼上,房源和咖啡馆区域分开，享受独立房源以及大平台屋顶花园，独栋小洋楼无电梯，此房源位于第三层。旅途劳累后也欢迎来我家咖啡店坐一坐,精致的咖啡甜品陪伴您,同时咖啡馆营业时间内也可以免费寄存行李。 覓兎MituHome Room3. AMBER 位于春熙路商圈,出门步行5分钟即是成都远洋太古里,快捷却不拥堵喧闹,能让您闲庭信步,不会把时间耽搁在路上。房源步行至地铁站仅需2分钟,市中心环线公交1分钟,方便的交通路线让您尽享成都旅游特色，周边各种特色美食、成都代表性大型商圈(太古里、IFS、春熙路等)、大小型超市、电影院一应俱全。 独有的审美品味以及舒适温馨的居住环境,因其地段优越和我们温馨体贴的服务,所以您一定也会爱上我们的房源。
+      </view>
+      <view class="detail">
+        <view class="detail-title">床位及设施</view>
+        <view class="detail-important">2张双人床</view>
+        <view class="detail-listInfo">
+          <view class="detail-info">· 无线网络</view>
+          <view class="detail-info">· 自助入住</view>
+          <view class="detail-info">· 独立卫生间</view>
+          <view class="detail-info">· 工作区域</view>
+          <view class="detail-info">· 生活必需品</view>
+          <view class="detail-info">· 衣架</view>
+          <view class="detail-info">· 独立入口</view>
+          <view class="detail-info">· 遮光窗帘</view>
+          <view class="detail-info">· 吹风机</view>
+          <view class="detail-info">· 电视</view>
+          <view class="detail-info">· 空调</view>
+          <view class="detail-info">· 门禁</view>
+          <view class="detail-info">· 洗浴用品</view>
+        </view>
+        <view class="detail-title">须知</view>
+        <view class="detail-time">
+          <view class="detail-time-info">
+            <view>入住</view>
+            <view>15 : 00 后</view>
+          </view>
+          <view class="detail-time-line"></view>
+          <view class="detail-time-info">
+            <view>退房</view>
+            <view>12 : 00</view>
+          </view>
+        </view>
+        <view class="detail-important">最少住1晚</view>
+      </view>
+    </view>
+    <image class="map" src="/images/map.jpg" mode="aspectFill" bindtap="toMap"></image>
+    <view class="content">
+      <view class="rule">
+        <view class="rule-tip">准确地址将在预订后提供</view>
+        <view class="rule-title">房屋守则</view>
+        <view class="rule-list">
+          <view class="rule-item">
+            <view class="rule-item-point">·</view>
+            <view class="rule-item-text">室内禁止吸烟</view>
+          </view>
+          <view class="rule-item">
+            <view class="rule-item-point">·</view>
+            <view class="rule-item-text">不合适携带宠物入住</view>
+          </view>
+          <view class="rule-item">
+            <view class="rule-item-point">·</view>
+            <view class="rule-item-text">不允许举办派对和活动</view>
+          </view>
+          <view class="rule-item">
+            <view class="rule-item-point">·</view>
+            <view class="rule-item-text">不适合儿童（2-12岁）入住，或不能为儿童提供安全的住宿环境</view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <footer></footer>
+</view>
